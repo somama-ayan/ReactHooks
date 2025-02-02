@@ -8,6 +8,8 @@ switch(action.type){
     return {count: state.count - 1}
     case "double":
     return {count: state.count * 2}
+    default: 
+    return state
 }
 }
 const UseReducerExample = () => {
